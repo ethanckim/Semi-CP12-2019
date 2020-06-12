@@ -1,0 +1,30 @@
+Things TODO
+GEO
+* Develop 3 more maps
+	- LV1: Tutorial Map
+	- LV2: Tutorial Map, but harder
+	- LV3: Branch off map for optional collectables
+	- LV4: Bumpers that make the player fall to death
+	- LV5: No walls, just a narrow path.
+* Develop Bumpers
+
+ETHAN
+* Restore Animation (DONE)
+* Implement Gyro (DONE)
+* Develop Win Condition
+* Develop Lose Condition (DONE)
+* Develop & Impliment Battery Collectables
+* Impliment Charging Mechanic
+* Impliment Score Mechanic
+* Impliment Arcade 
+* Polish Physics 
+
+GAVIN
+PRIORITY
+* Create Background
+* Create Bumpers
+* Create Brick Tile
+
+SECONDARY
+* SFX Sounds & Music
+

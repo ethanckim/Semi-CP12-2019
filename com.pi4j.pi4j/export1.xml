@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project com.pi4j.pi4j">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="D:/Hapke/workspaces/development2"/>
+    <property name="dir.jarfile" value="F:/pi4j-1.2/lib"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/pi-ex.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="gpio.example.ADS1115GpioExample"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${dir.buildfile}/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/junit.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-core-javadoc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-core-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-core.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-device-javadoc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-device-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-device.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-example-javadoc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-example-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-example.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-gpio-extension-javadoc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-gpio-extension-sources.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/pi4j-gpio-extension.jar"/>
+        </jar>
+    </target>
+</project>
