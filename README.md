@@ -5,7 +5,7 @@ These programs created are developed while enrolled in the Computer Programming 
 
 The programs are organized into the following subdirectories and include README.md files with instructions for getting started:
 
-* [Parroter](ca.hapke.parroter)
+* [Parroter](ca.kim.parroter)
     * Console program which echos the input.
 * [Hangman](ca.kim.hangman)
     * Console program: Classic hangman game with additional features including a 2 player mode.
