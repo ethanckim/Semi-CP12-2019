@@ -13,8 +13,8 @@ This program uses unique protocols for communication. The protocols have 4-lette
 * JOIN: [username] - *After opening the socket*
 * SPEK: [message] - *After you have been WELComed to the channel, but not yet PARTed or been KICKed*
 * PART: [message] - *When you are done and are ready to close the socket.*
-* REQS: username port	To REQueSt private messaging with someone else
-* ACPT: username port	To ACcePT private messaging with someone else
+* REQS: [username] [port]	*To REQueSt private messaging with someone else*
+* ACPT: [username] [port]	*To ACcePT private messaging with someone else*
 
 
 ### The program can receive...
@@ -28,5 +28,5 @@ This program uses unique protocols for communication. The protocols have 4-lette
 * GBYE: [message] - *You have PARTed and the server is saying GoodBYE.*
 * PUNT: <username> [message] - *Someone else got KICKed out*
 * KICK: [reason] - *You got KICKed out*
-* INCM: [username] ip:port	You have an INCoMing private messaging request
-* PYES: username ip:port	Someone else said YES to your private messaging request
+* INCM: [username] [ip]:[port]	*You have an INCoMing private messaging request*
+* PYES: [username] [ip]:[port] *Someone else said YES to your private messaging request*
