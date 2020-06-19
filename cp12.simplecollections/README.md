@@ -1,6 +1,6 @@
 # Simple Collections
 
-For Junit tests that assess the accuracy of the datastructure functions, please refer to [cp12.simplecollections.tests](cp12.simplecollections.tests).
+For Junit tests that assess the accuracy of the datastructure functions, please refer to [cp12.simplecollections.tests](https://github.com/ethanckim/Semi-CP12-2019/tree/master/cp12.simplecollections.tests).
 
 This subdirectory contains the following:
 ## datastructures
