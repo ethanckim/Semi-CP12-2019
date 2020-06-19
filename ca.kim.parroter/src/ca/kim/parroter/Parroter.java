@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Parroter {
 
 	/**
-	 * Main is the method that runs when the program starts.
+	 * Main: the method that runs when the program starts.
 	 * 
 	 */
 	public static void main(String[] args) {
