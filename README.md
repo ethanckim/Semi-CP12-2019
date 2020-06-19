@@ -13,7 +13,7 @@ The programs are organized into the following subdirectories and may include REA
     * Console program: Classic hangman game with additional features including a 2 player mode.
 * [Hello World](ca.kim.helloworld)
     * A Hello World program to Java Swing. Read, process, and return strings in a textbox.
-* [Three FPS](]ca.kim.threefps)
+* [Three FPS](ca.kim.threefps)
     * Introduction to use of threads. Count increases by 3 every second.
 * [Notepad](ca.kim.notepad)
     * A itteration of MS Notepad. Open, Save, Save As, and Find/Replace available. Read and write on files.
