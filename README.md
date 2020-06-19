@@ -3,7 +3,7 @@
 
 These programs created are developed while enrolled in the Computer Programming 12 course instructed by Mr. Nathan Hapke, Semiahmoo Secondary School.
 
-***For Current Students: Please do not copy this code directly for your projects, but use this as a reference. Mr.Hapke already knows the presence of the repository, and copying and pasting directly will immediately result in academic dishonesty.***
+***For Current Students: Please do not copy this code directly for your projects. Mr.Hapke already assessed my work, and copying and pasting directly will immediately result in academic dishonesty.***
 
 The programs are organized into the following subdirectories and may include README.md files with specific instructions:
 
