@@ -17,7 +17,7 @@ The programs are organized into the following subdirectories and may include REA
     * A itteration of MS Notepad. Open, Save, Save As, and Find/Replace available. Read and write on files.
 * [Accord Chat](ca.kim.accordchat)
     * A chatting program that sends protocols and messages to the server. Covers SocketsAndStreams, ports, ip address, and server protocols. *Needs the complimentary server program to be effective.*
-* [Simple Collections](ca.kim.simplecollections)
+* [Simple Collections](cp12.simplecollections)
     * Explores different data structures such as linked lists, and trees. Currently only the tree data structure and linked list data structure is complete. Complimentary Tests check the accurecy of the addition, removal, traversal, and sorting of data structures.
 * [JGame Test](ca.kim.game.test)
     * Introduction to [JGame by the 13thmonkey](http://www.13thmonkey.org/~boris/jgame/). Browser follows mario and a Koopa controlled by aawsd and arrow keys. Hitboxes are visualized, and collision is detected. 
