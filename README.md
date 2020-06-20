@@ -16,7 +16,7 @@ The programs are organized into the following subdirectories and may include REA
 * [Three FPS](ca.kim.threefps)
     * Introduction to use of threads. Count increases by 3 every second.
 * [Notepad](ca.kim.notepad)
-    * A itteration of MS Notepad. Open, Save, Save As, and Find/Replace available. Read and write on files.
+    * An itteration of MS Notepad. Open, Save, Save As, and Find/Replace available. Read and write on files.
 * [Accord Chat](ca.kim.accordchat)
     * A chatting program that sends protocols and messages to the server. Covers SocketsAndStreams, ports, ip address, and server protocols. *Needs the complimentary server program to be effective.*
 * [Simple Collections](cp12.simplecollections)
