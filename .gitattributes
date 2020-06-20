@@ -1,0 +1,2 @@
+# Makes linguist to not read HTML files:
+*.html linguist-detectable=false
